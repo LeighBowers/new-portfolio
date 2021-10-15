@@ -51,6 +51,7 @@ li a .active {
 body{
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXAYuXcQi-fRJw63ipczBbmeAbQubAQohRlA&usqp=CAU");  
     background-repeat: no-repeat;
+    height: 100%;
     background-size: cover;
     text-align: center;
     color: rgb(19, 16, 53);
@@ -59,12 +60,12 @@ body{
     }
 /* home page */
 
-@media  screen and (max-width: 600px) {
-    /* .home-text{ */
-        /* align-items: center; */
-        /* text-align: center; */
-        /* justify-content: center; */
-    }
+/* @media  screen and (max-width: 450px) {
+    .home-text{ 
+        align-items: center;
+        text-align: center;
+         justify-content: center; 
+    } */
     
     
 .hometext{
@@ -368,4 +369,3 @@ fieldset {
         color: rgba(7, 6, 6, 0.808);
         transform: rotateY(180deg);
       }
-    
